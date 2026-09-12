@@ -1,0 +1,6 @@
+{
+  "name": "Luxury Barber Lounge",
+  "description": "San Diego's premier modern barbershop offering precision fades, signature haircuts, hot towel shaves, and elevated grooming rituals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

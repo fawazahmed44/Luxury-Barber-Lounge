@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Silver Medallion Gradient -->
+    <linearGradient id="silverRingGrad" x1="20%" y1="10%" x2="85%" y2="95%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#d1d5db"/>
+      <stop offset="50%" stop-color="#9ca3af"/>
+      <stop offset="75%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#6b7280"/>
+    </linearGradient>
+
+    <!-- Metallic Cap Gradient -->
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4b5563"/>
+      <stop offset="30%" stop-color="#d1d5db"/>
+      <stop offset="50%" stop-color="#f9fafb"/>
+      <stop offset="70%" stop-color="#9ca3af"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+
+    <!-- Pole Cylinder Inner Shadow / Clip -->
+    <clipPath id="poleClip">
+      <rect x="52" y="38" width="16" height="44" rx="2" />
+    </clipPath>
+  </defs>
+
+  <!-- === EMBLEM: CIRCULAR SILVER MEDALLION WITH BARBER POLE === -->
+  <g id="emblem" transform="translate(0, 0)">
+    <!-- Outer Silver Ring -->
+    <circle cx="60" cy="60" r="42" stroke="url(#silverRingGrad)" stroke-width="5" fill="none" opacity="0.95"/>
+    <circle cx="60" cy="60" r="39" stroke="#9ca3af" stroke-width="0.75" fill="none" opacity="0.6"/>
+
+    <!-- Barber Pole Assembly (Centered at x=60, y=60) -->
+    <!-- Top Finial Ball -->
+    <circle cx="60" cy="23" r="3.2" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.6"/>
+    <!-- Top Cap Tier 1 -->
+    <path d="M57 26.2 C57 25 63 25 63 26.2 L64 29 L56 29 Z" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.5"/>
+    <!-- Top Cap Main Flared Crown -->
+    <path d="M54 29 L66 29 L67 34 L53 34 Z" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.6"/>
+    <rect x="51" y="34" width="18" height="4" rx="1" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.6"/>
+
+    <!-- Glass Cylinder Background & Border -->
+    <rect x="52" y="38" width="16" height="44" rx="1" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+
+    <!-- Barber Pole Stripes (clipped inside cylinder) -->
+    <g clip-path="url(#poleClip)">
+      <rect x="52" y="38" width="16" height="44" fill="#ffffff"/>
+      <!-- Diagonal stripes -->
+      <polygon points="48,36 60,36 74,52 74,57" fill="#111827"/>
+      <polygon points="48,46 60,46 74,62 74,67" fill="#111827"/>
+      <polygon points="48,56 60,56 74,72 74,77" fill="#111827"/>
+      <polygon points="48,66 60,66 74,82 74,87" fill="#111827"/>
+      <polygon points="48,76 60,76 74,92 74,97" fill="#111827"/>
+      <!-- Glass reflection highlight -->
+      <rect x="54" y="38" width="2.5" height="44" fill="#ffffff" opacity="0.45"/>
+    </g>
+
+    <!-- Bottom Cap Main Collar -->
+    <rect x="51" y="82" width="18" height="4" rx="1" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.6"/>
+    <!-- Bottom Cap Flared Cup -->
+    <path d="M53 86 L67 86 L65 91 L55 91 Z" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.6"/>
+    <!-- Bottom Finial Base & Sphere -->
+    <path d="M56 91 L64 91 L62 94 L58 94 Z" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.5"/>
+    <circle cx="60" cy="96.5" r="2.8" fill="url(#capGrad)" stroke="#1f2937" stroke-width="0.6"/>
+  </g>
+
+  <!-- === TYPOGRAPHY === -->
+  <!-- Top line: LUXURY BARBER LOUNGE -->
+  <text x="122" y="58"
+        fill="#111827"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="28"
+        font-weight="700"
+        letter-spacing="0.06em">LUXURY BARBER LOUNGE</text>
+
+  <!-- Bottom line: A LAVISH HAIRCUT EXPERIENCE -->
+  <text x="124" y="83"
+        fill="#1f2937"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="12.5"
+        font-weight="500"
+        letter-spacing="0.28em">A LAVISH HAIRCUT EXPERIENCE</text>
+</svg>

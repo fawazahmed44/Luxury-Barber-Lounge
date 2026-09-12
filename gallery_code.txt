@@ -1,0 +1,219 @@
+export const GALLERY_ITEMS: GalleryItem[] = [
+  {
+    id: "gal-1",
+    title: "Downtown San Diego Lounge Storefront & Street Entrance",
+    category: "atmosphere",
+    imageUrl: "/images/gallery/street.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-2",
+    title: "Luxury Barber Lounge Stations & High-End Barber Chairs",
+    category: "atmosphere",
+    imageUrl: "/images/gallery/studioInterior_24806.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-3",
+    title: "Upgraded Leather Seating & Ambient Lounge Lighting",
+    category: "atmosphere",
+    imageUrl: "/images/gallery/studioInterior_24808.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-4",
+    title: "Luxury Barber Lounge Team of Master Craftsmen",
+    category: "atmosphere",
+    imageUrl: "/images/gallery/barbersTeam_1.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-5",
+    title: "Vintage-Inspired Station & Professional Barbering Tools",
+    category: "atmosphere",
+    imageUrl: "/images/gallery/barberStation_1007902.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-6",
+    title: "Full Service Grooming Station Setup",
+    category: "atmosphere",
+    imageUrl: "/images/gallery/luxurybarberServicesNT.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-7",
+    title: "Comfortable Waiting Lounge & Leather Seating Area",
+    category: "atmosphere",
+    imageUrl: "/images/gallery/luxurybarberAppointmentsNT.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-8",
+    title: "Master Barber Flix Crafting a Precision Cut",
+    category: "craft",
+    imageUrl: "/images/gallery/barberFelix_action.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-9",
+    title: "Owner Antony Delivering VIP Consultation & Cut",
+    category: "craft",
+    imageUrl: "/images/gallery/barberAntony_action.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-10",
+    title: "Precision Hair Fade & Razor Finish",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopHairFades.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-11",
+    title: "Classic San Diego Gentleman Cut & Taper",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopSanDiegoHairCuts.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-12",
+    title: "Signature Men's Haircut & Clean Outline",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopMensHairCuts.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-13",
+    title: "Young Gentleman Scissor & Clipper Styling",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopBoyxHairCut.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-14",
+    title: "Seamless Mid Fade with Textured Top",
+    category: "cuts",
+    imageUrl: "/images/gallery/luxuryBarbershopMensHairCutFade.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-15",
+    title: "Modern Executive Fade & Natural Blend",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopMensCuts.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-16",
+    title: "Master Barber Detailing & Shear Architecture",
+    category: "craft",
+    imageUrl: "/images/gallery/barberWorking_1979440.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-17",
+    title: "Razor Sharp Haircut Fade & Crisp Lineup",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbersHairCutFades.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-18",
+    title: "Downtown San Diego Barbershop Craftsmanship",
+    category: "craft",
+    imageUrl: "/images/gallery/barbershopSanDiego.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-19",
+    title: "Deluxe Beard Sculpting & Edge Enhancement",
+    category: "craft",
+    imageUrl: "/images/gallery/luxuryBarberBeardTrim.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-20",
+    title: "Precision Beard Trim & Hot Towel Finish",
+    category: "shave",
+    imageUrl: "/images/gallery/barbershopBeardTrims.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-21",
+    title: "Ultra-Clean High & Tight Skin Fade",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopFades.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-22",
+    title: "Custom Taper Fade with Clean Side Profile",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopHairCutsFades.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-23",
+    title: "Classic Scissor Cut with Natural Parting",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopHairCuts.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-24",
+    title: "Fade & Beard Combination Craftsmanship",
+    category: "craft",
+    imageUrl: "/images/gallery/barbershopSanDiegoFadesTrims.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-25",
+    title: "Sharp Temple Fade & Beard Blend",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopSanDiegoHairCutsFades.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-26",
+    title: "Polished Gentleman Styling & Pomade Finish",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopSanDiegoMensHairCuts.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-27",
+    title: "Executive Cut with Precision Perimeter",
+    category: "cuts",
+    imageUrl: "/images/gallery/luxuryBarberCuts.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-28",
+    title: "Stylish Modern Crop & Texture",
+    category: "cuts",
+    imageUrl: "/images/gallery/barbershopStylishCuts.jpg",
+    aspect: "landscape"
+  },
+  {
+    id: "gal-29",
+    title: "Tailored Haircut with Razor Edging",
+    category: "cuts",
+    imageUrl: "/images/gallery/luxuryBarbershopHairCut.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-30",
+    title: "Clean Razor Shave & Skin Fade Blend",
+    category: "shave",
+    imageUrl: "/images/gallery/luxuryBarbershopMensHiarCut.jpg",
+    aspect: "portrait"
+  },
+  {
+    id: "gal-31",
+    title: "Straight Razor Detail & Nape Line Finish",
+    category: "shave",
+    imageUrl: "/images/gallery/luxuryBarbershopRazorCuts.jpg",
+    aspect: "landscape"
+  }
+];
